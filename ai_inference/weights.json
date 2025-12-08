@@ -1,0 +1,16 @@
+{
+  "description": "Pre-trained weights for XOR problem - 2-2-1 architecture",
+  "architecture": {
+    "input_size": 2,
+    "hidden_size": 2,
+    "output_size": 1
+  },
+  "weights": {
+    "W1": [[20.0, 20.0], [20.0, 20.0]],
+    "b1": [-10.0, -30.0],
+    "W2": [[20.0, -20.0]],
+    "b2": [-10.0]
+  },
+  "notes": "These weights solve XOR with high accuracy (>0.99)"
+}
+
