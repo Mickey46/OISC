@@ -1,6 +1,4 @@
-# MPCR OISC - One Instruction Set Computer
-[MPCR OISC Code Here](https://colab.research.google.com/drive/1YogUeyU0JVNeDt9oN8doqP0FAqXexUbZ?usp=sharing)
-
+#  OISC - One Instruction Set Computer
 
 1. [Introduction](#introduction)
 2. [Architecture Overview](#architecture-overview)
@@ -29,7 +27,7 @@
 
 ## Introduction
 
-The **MPCR OISC** (MPCR One Instruction Set Computer) is a **One Instruction Set Computer** that uses **only one native instruction**:
+The ** OISC** ( One Instruction Set Computer) is a **One Instruction Set Computer** that uses **only one native instruction**:
 
 ```
 M[j] = M[i]
@@ -275,7 +273,7 @@ print(M[D['SL']+1:D['SL']+1+M[D['SL']]])  # → [30]
 
 ## Implementation Deep Dive
 
-The MPCR OISC is implemented in **~150 lines of pure Python** using NumPy for memory management. The implementation consists of four key components:
+The  OISC is implemented in **~150 lines of pure Python** using NumPy for memory management. The implementation consists of four key components:
 
 ### System Constants
 
@@ -1110,7 +1108,7 @@ MyWord,W
 | Term | Definition |
 |------|------------|
 | OISC | One Instruction Set Computer |
-| MPCR | Minimal Programmable Copy-Paste Register |
+| TAN | Minimal Programmable Copy-Paste Register |
 | RPN | Reverse Polish Notation |
 | Subroutine Threading | Code as callable addresses |
 | Unified Memory | Code + data in one space |
@@ -1128,7 +1126,7 @@ MyWord,W
 
 ## Summary
 
-This documentation provides a complete reference for the **MPCR OISC** system:
+This documentation provides a complete reference for the ** OISC** system:
 
 ### What You've Learned
 
@@ -1145,7 +1143,7 @@ This documentation provides a complete reference for the **MPCR OISC** system:
 
 ```
 ╔══════════════════════════════════════════════════════════════╗
-║                   MPCR OISC Quick Reference                  ║
+║                    OISC Quick Reference                  ║
 ╠══════════════════════════════════════════════════════════════╣
 ║ INSTRUCTION:  M[j] = M[i]                                    ║
 ║ MEMORY:       4096 words                                     ║
@@ -1308,7 +1306,7 @@ The 'code.ai' language uses postfix notation, also known as Reverse Polish Notat
 
 The simplicity of postfix notation greatly simplifies the compiler for the 'code.ai' language, as there is no need to parse complex expressions or manage operator precedence. The compiler can focus on translating the words in the program into machine codes that manipulate the stacks and perform the desired operations.
 
-In summary, the 'code.ai' language implementation demonstrates how a simple stack-based language with a single native instruction can be used to perform complex operations using subroutine threading, postfix notation, and a straightforward compiler. This implementation serves as a useful introduction to stack-based languages and the MPCR OISC concept.
+In summary, the 'code.ai' language implementation demonstrates how a simple stack-based language with a single native instruction can be used to perform complex operations using subroutine threading, postfix notation, and a straightforward compiler. This implementation serves as a useful introduction to stack-based languages and the  OISC concept.
 
 
 
